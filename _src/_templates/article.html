@@ -1,0 +1,143 @@
+{% extends "base.html" %}
+
+{% block title %}{{ article.title }} | {{ site.brand_name }}{% endblock %}
+{% block meta_description %}{{ article.meta_description }}{% endblock %}
+{% block canonical %}/{{ article.slug }}.html{% endblock %}
+{% block og_title %}{{ article.title }}{% endblock %}
+{% block og_description %}{{ article.meta_description }}{% endblock %}
+{% block og_url %}/{{ article.slug }}.html{% endblock %}
+{% block og_type %}article{% endblock %}
+
+{% block content %}
+<div class="container article-layout">
+    <article class="main-article">
+        <!-- Breadcrumbs -->
+        <nav class="breadcrumbs">
+            <a href="/">Home</a> &raquo; 
+            <a href="/{{ article.category | lower | replace(' & ', '-') | replace(' ', '-') }}.html">{{ article.category }}</a> &raquo; 
+            <span>{{ article.breed }}</span>
+        </nav>
+
+        <header class="article-header">
+            <h1>{{ article.title }}</h1>
+            <div class="author-meta">
+                By <strong>{{ article.author }}</strong> | Updated: <time datetime="{{ article.publish_date }}">{{ article.publish_date[:10] }}</time>
+            </div>
+            
+            <!-- Social Share Inline -->
+            <div class="social-share">
+                <button class="share-btn twitter" onclick="window.open('https://twitter.com/intent/tweet?url='+encodeURIComponent(location.href)+'&text='+encodeURIComponent('{{ article.title }}'))">X/Twitter</button>
+                <button class="share-btn facebook" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href))">Facebook</button>
+                <button class="share-btn linkedin" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url='+encodeURIComponent(location.href)+'&title='+encodeURIComponent('{{ article.title }}'))">LinkedIn</button>
+            </div>
+        </header>
+
+        <div class="article-body">
+            {{ article.content_html | safe }}
+            
+            <!-- Mid-Article AdSense -->
+            <div class="ad-container ad-mid-article">
+                <ins class="adsbygoogle"
+                     style="display:block; text-align:center;"
+                     data-ad-layout="in-article"
+                     data-ad-format="fluid"
+                     data-ad-client="{{ site.adsense_client_id }}"
+                     data-ad-slot="2345678901"></ins>
+                <script>
+                     (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+            
+            <!-- Mid-Article Newsletter -->
+            <div class="inline-newsletter">
+                <h3>Protect Your {{ article.breed }}</h3>
+                <p>Join our free newsletter for the latest pet health tips and insurance discounts.</p>
+                <form action="#" method="POST" class="newsletter-form inline">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit" class="btn btn-secondary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        
+        <!-- Bottom Social Share -->
+        <div class="social-share bottom">
+            <strong>Share this guide:</strong>
+            <button class="share-btn twitter" onclick="window.open('https://twitter.com/intent/tweet?url='+encodeURIComponent(location.href)+'&text='+encodeURIComponent('{{ article.title }}'))">X/Twitter</button>
+            <button class="share-btn facebook" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href))">Facebook</button>
+        </div>
+
+        <!-- End of Article AdSense -->
+        <div class="ad-container ad-end-article">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-format="autorelaxed"
+                 data-ad-client="{{ site.adsense_client_id }}"
+                 data-ad-slot="3456789012"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+
+        <div class="author-bio-box">
+            <h4>About the Author: {{ article.author }}</h4>
+            <p>{{ site.author.bio }}</p>
+        </div>
+    </article>
+
+    <aside class="sidebar">
+        <!-- Sticky Sidebar Ad -->
+        <div class="sticky-sidebar-widget">
+            <div class="ad-container ad-sidebar">
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="{{ site.adsense_client_id }}"
+                     data-ad-slot="4567890123"
+                     data-ad-format="auto"
+                     data-full-width-responsive="true"></ins>
+                <script>
+                     (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+
+            <div class="related-widget">
+                <h3>Related Guides</h3>
+                <ul>
+                    {% for rel in related_articles %}
+                    <li>
+                        <a href="/{{ rel.slug }}.html">{{ rel.title }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </aside>
+</div>
+{% endblock %}
+
+{% block head %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ article.title }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ article.author }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.brand_name }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}/images/icon-512.png"
+    }
+  },
+  "datePublished": "{{ article.publish_date }}",
+  "dateModified": "{{ article.publish_date }}",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ site.url }}/{{ article.slug }}.html"
+  }
+}
+</script>
+{% endblock %}

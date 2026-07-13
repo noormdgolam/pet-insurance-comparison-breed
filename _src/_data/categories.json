@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Small Breeds",
+        "slug": "small-breeds",
+        "description": "Pet insurance guides for small dog breeds."
+    },
+    {
+        "name": "Large & Medium Breeds",
+        "slug": "large-medium-breeds",
+        "description": "Pet insurance guides for medium and large dog breeds."
+    },
+    {
+        "name": "Giant Breeds",
+        "slug": "giant-breeds",
+        "description": "Pet insurance guides for giant dog breeds."
+    },
+    {
+        "name": "Guides",
+        "slug": "guides",
+        "description": "Comprehensive pet insurance guides."
+    }
+]

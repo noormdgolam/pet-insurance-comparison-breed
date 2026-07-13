@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% block title %}{{ category.name }} Pet Insurance Guides | {{ site.brand_name }}{% endblock %}
+{% block meta_description %}{{ category.description }}{% endblock %}
+{% block canonical %}/{{ category.slug }}.html{% endblock %}
+{% block og_title %}{{ category.name }} Pet Insurance Guides{% endblock %}
+{% block og_description %}{{ category.description }}{% endblock %}
+{% block og_url %}/{{ category.slug }}.html{% endblock %}
+
+{% block content %}
+<div class="hero" style="padding: 3rem 1rem;">
+    <div class="container text-center">
+        <h1>{{ category.name }} Guides</h1>
+        <p>{{ category.description }}</p>
+    </div>
+</div>
+
+<div class="container">
+    <!-- AdSense: Above the Fold -->
+    <div class="ad-container ad-above-fold">
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="{{ site.adsense_client_id }}"
+             data-ad-slot="1111111111"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
+
+    <section class="article-grid">
+        {% for article in articles %}
+        <article class="card">
+            <div class="card-content">
+                <span class="category-tag">{{ article.category }}</span>
+                <h3><a href="/{{ article.slug }}.html">{{ article.title }}</a></h3>
+                <p>{{ article.meta_description }}</p>
+                <a href="/{{ article.slug }}.html" class="read-more">Read Guide &rarr;</a>
+            </div>
+        </article>
+        {% endfor %}
+    </section>
+</div>
+{% endblock %}
+
+{% block head %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "{{ category.name }} Pet Insurance Guides",
+  "description": "{{ category.description }}",
+  "url": "{{ site.url }}/{{ category.slug }}.html"
+}
+</script>
+{% endblock %}

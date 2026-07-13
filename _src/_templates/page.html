@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+{% block title %}{{ title }} | {{ site.brand_name }}{% endblock %}
+{% block meta_description %}{{ meta_description }}{% endblock %}
+{% block canonical %}/{{ page_id }}.html{% endblock %}
+{% block og_title %}{{ title }}{% endblock %}
+{% block og_description %}{{ meta_description }}{% endblock %}
+{% block og_url %}/{{ page_id }}.html{% endblock %}
+
+{% block content %}
+<div class="container page-layout">
+    <article>
+        <header>
+            <h1>{{ title }}</h1>
+        </header>
+
+        <div class="article-body">
+            {% if page_id == 'search' %}
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Search for a breed..." class="search-input" style="width: 100%; padding: 1rem; font-size: 1.1rem; border: 2px solid var(--border-color); border-radius: 8px; margin-bottom: 2rem;">
+                    <div id="search-results" class="article-grid">
+                        <!-- Results will be injected here via JS -->
+                    </div>
+                </div>
+            {% elif page_id == 'about' %}
+                <p>Welcome to <strong>{{ site.brand_name }}</strong>. We are a team of passionate pet lovers, veterinary experts, and insurance analysts dedicated to helping you make the best decisions for your furry friends.</p>
+                <h2>Our Mission</h2>
+                <p>Our mission is to simplify the complex world of pet insurance. We believe that every dog deserves the best medical care possible, without putting their owners in financial ruin.</p>
+                <h2>Why Breed-Specific?</h2>
+                <p>Not all dogs are created equal when it comes to health. A Great Dane has vastly different needs and risks compared to a Chihuahua. By focusing on breed-specific guides, we ensure you get the most accurate and relevant information.</p>
+            {% elif page_id == 'contact' %}
+                <p>We'd love to hear from you! Whether you have a question about a specific breed or feedback on our guides, please reach out.</p>
+                <form action="#" class="newsletter-form" style="flex-direction: column;">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required style="padding: 1rem; border: 1px solid #cbd5e1; border-radius: 8px;"></textarea>
+                    <button type="submit" class="btn btn-primary" style="align-self: flex-start;">Send Message</button>
+                </form>
+            {% elif page_id == 'privacy' %}
+                <p>Last updated: <script>document.write(new Date().toLocaleDateString('en-US'))</script></p>
+                <h2>1. Information We Collect</h2>
+                <p>We collect information you provide directly to us (like newsletter signups) and information collected automatically (like cookies and analytics data).</p>
+                <h2>2. Google AdSense</h2>
+                <p>Third party vendors, including Google, use cookies to serve ads based on a user's prior visits to your website or other websites. Google's use of advertising cookies enables it and its partners to serve ads to your users based on their visit to your sites and/or other sites on the Internet.</p>
+                <p>Users may opt out of personalized advertising by visiting <a href="https://www.google.com/settings/ads">Ads Settings</a>.</p>
+                <h2>3. Cookies</h2>
+                <p>We use cookies to improve your experience on our site, serve personalized ads, and analyze our traffic.</p>
+            {% elif page_id == 'terms' %}
+                <p>Welcome to {{ site.brand_name }}. By accessing our website, you agree to these Terms of Service.</p>
+                <h2>Disclaimer of Warranties</h2>
+                <p>Our website is provided on an "as is" and "as available" basis. We do not guarantee the accuracy of insurance quotes or coverage details. Always read the official policy documents from the insurance provider.</p>
+            {% elif page_id == 'disclaimer' %}
+                <h2>Medical Disclaimer</h2>
+                <p>The content on {{ site.brand_name }} is for informational purposes only and is not intended as a substitute for professional veterinary advice, diagnosis, or treatment. Always seek the advice of your veterinarian with any questions you may have regarding a medical condition.</p>
+                <h2>Financial & Affiliate Disclosure</h2>
+                <p>We may receive compensation from the insurance companies featured on our site. This compensation may impact how and where products appear on this site. However, we strive to provide objective, unbiased reviews and comparisons.</p>
+            {% elif page_id == '404' %}
+                <div style="text-align: center; padding: 4rem 0;">
+                    <h2 style="font-size: 4rem; color: var(--primary-color);">404</h2>
+                    <p style="font-size: 1.2rem; margin-bottom: 2rem;">Oops! We couldn't find the page you're looking for.</p>
+                    <a href="/" class="btn btn-primary">Return Home</a>
+                </div>
+            {% endif %}
+        </div>
+    </article>
+</div>
+{% endblock %}

@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /search.html
+Allow: /
+
+Sitemap: https://pet-insurance-comparison-breed.bongshai.com/sitemap.xml
