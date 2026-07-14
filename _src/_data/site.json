@@ -1,16 +1,16 @@
 {
-    "brand_name": "Pet Insurance Comparison Guide",
-    "domain": "pet-insurance-comparison-breed.bongshai.com",
-    "url": "https://pet-insurance-comparison-breed.bongshai.com",
-    "description": "Find the best pet insurance tailored for your dog's breed. We compare costs, coverage, and provider reviews.",
+    "brand_name": "Pet Insurance Rates Guide",
+    "domain": "pet-insurance-rates-zip.bongshai.com",
+    "url": "https://pet-insurance-rates-zip.bongshai.com",
+    "description": "Find the best pet insurance rates tailored to your ZIP code. We compare costs, coverage, and local vet fees.",
     "adsense_client_id": "ca-pub-0000000000000000",
     "ga4_measurement_id": "G-XXXXXXXXXX",
     "social": {
-        "twitter": "@PetInsureGuide",
-        "facebook": "PetInsuranceComparisonGuide"
+        "twitter": "@PetInsureRates",
+        "facebook": "PetInsuranceRatesGuide"
     },
     "author": {
-        "name": "Editorial Team",
-        "bio": "Our team of veterinary experts and insurance analysts are dedicated to helping pet parents find the best coverage."
+        "name": "Data Aggregation Team",
+        "bio": "Our editorial team aggregates public veterinary cost data and insurance premium estimates to provide transparent, localized guides. We are not licensed financial advisors or veterinarians."
     }
 }

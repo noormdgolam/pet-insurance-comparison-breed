@@ -3,9 +3,9 @@
 {% block content %}
 <section class="hero">
     <div class="container hero-inner">
-        <h1>Find the Perfect Pet Insurance for Your Dog's Breed</h1>
-        <p>Every breed is unique, and so are their health risks. Compare top-rated pet insurance plans tailored to your dog's specific needs, size, and genetic predispositions.</p>
-        <a href="#breeds" class="btn btn-primary btn-large">Compare by Breed</a>
+        <h1>Find the Lowest Pet Insurance Rates in Your ZIP Code</h1>
+        <p>Every city is different, and so are local vet costs. Compare top-rated pet insurance plans tailored to your specific ZIP code, state, and local area.</p>
+        <a href="#locations" class="btn btn-primary btn-large">Compare by Location</a>
     </div>
 </section>
 
@@ -23,8 +23,8 @@
         </script>
     </div>
 
-    <section id="breeds" class="featured-articles">
-        <h2>Latest Breed Guides</h2>
+    <section id="locations" class="featured-articles">
+        <h2>Latest Local Rate Guides</h2>
         <div class="article-grid">
             {% for article in articles %}
             <article class="card">
@@ -39,11 +39,11 @@
         </div>
     </section>
 
-    <section class="all-breeds-list">
-        <h2>Browse All Breeds</h2>
+    <section class="all-locations-list">
+        <h2>Browse All Locations</h2>
         <ul class="breed-links">
             {% for article in all_articles %}
-            <li><a href="/{{ article.slug }}.html">{{ article.breed }}</a></li>
+            <li><a href="/{{ article.slug }}.html">{{ article.location_name }}</a></li>
             {% endfor %}
         </ul>
     </section>

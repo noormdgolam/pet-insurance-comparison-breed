@@ -32,10 +32,32 @@ def build_site():
     # Create search index
     search_index = []
     
+    import random
+    
+    spin_intros = [
+        "<p>Deciding whether pet insurance is worth it depends heavily on your pet's breed and potential health risks. In this comprehensive guide, we'll dive deep into the specific coverage options and average costs you should expect.</p>",
+        "<p>When it comes to our furry friends, unexpected vet bills can be financially devastating. That's why securing the right insurance plan is critical. Let's explore the key factors that influence your monthly premiums.</p>",
+        "<p>Every breed has its own unique set of health predispositions. By understanding these risks upfront, you can select an insurance policy that provides maximum protection without breaking the bank.</p>"
+    ]
+    
+    spin_factors = [
+        "<h3>Key Factors Influencing Your Premium</h3><ul><li><strong>Breed Specifics:</strong> Certain purebreds are more prone to genetic conditions, increasing insurance costs.</li><li><strong>Location:</strong> Veterinary care costs vary significantly depending on where you live.</li><li><strong>Age:</strong> Enrolling your pet while they are young and healthy will secure lower rates.</li></ul>",
+        "<h3>What Determines the Cost?</h3><p>Your insurance quote is not arbitrary. Providers calculate premiums based on your pet's age, breed, and your local postal code. Plans with lower deductibles and higher reimbursement rates will also increase your monthly cost.</p>",
+        "<h3>Understanding Deductibles and Limits</h3><p>Before committing to a policy, always check the annual deductible and payout limits. A cheaper monthly premium might mean you pay significantly more out-of-pocket during an emergency.</p>"
+    ]
+    
+    spin_faqs = [
+        "<h3>Frequently Asked Questions</h3><h4>Does pet insurance cover pre-existing conditions?</h4><p>Generally, no. Most pet insurance providers will not cover conditions that were diagnosed or showed symptoms before the policy's waiting period ended.</p>",
+        "<h3>Frequently Asked Questions</h3><h4>Is wellness care included?</h4><p>Standard accident and illness policies do not cover routine care (like vaccines and dental cleanings). However, many companies offer a wellness add-on for an additional fee.</p>",
+        "<h3>Frequently Asked Questions</h3><h4>How do reimbursements work?</h4><p>Unlike human health insurance, you usually have to pay the vet bill upfront and then submit a claim to your pet insurance provider for reimbursement.</p>"
+    ]
+    
     # Pre-process articles
     for article in articles:
         # Convert markdown to html for content
-        article['content_html'] = markdown.markdown(article['content'])
+        raw_html = markdown.markdown(article['content'])
+        injected_content = random.choice(spin_intros) + raw_html + random.choice(spin_factors) + random.choice(spin_faqs)
+        article['content_html'] = injected_content
         search_index.append({
             "title": article['title'],
             "url": f"/{article['slug']}.html",
@@ -61,7 +83,7 @@ def build_site():
         ('terms.html', 'Terms of Service', 'Terms of Service for Pet Insurance Comparison Guide.', 'terms'),
         ('disclaimer.html', 'Disclaimer', 'Important disclaimers and FTC disclosures.', 'disclaimer'),
         ('404.html', 'Page Not Found', 'The page you are looking for does not exist.', '404'),
-        ('search.html', 'Search', 'Search for pet insurance by breed.', 'search')
+        ('search.html', 'Search', 'Search for pet insurance rates by ZIP code or city.', 'search')
     ]
     page_template = env.get_template('page.html')
     for filename, title, desc, page_id in static_pages:

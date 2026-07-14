@@ -15,7 +15,7 @@
         <nav class="breadcrumbs">
             <a href="/">Home</a> &raquo; 
             <a href="/{{ article.category | lower | replace(' & ', '-') | replace(' ', '-') }}.html">{{ article.category }}</a> &raquo; 
-            <span>{{ article.breed }}</span>
+            <span>{{ article.location_name }}</span>
         </nav>
 
         <header class="article-header">
@@ -23,6 +23,9 @@
             <div class="author-meta">
                 By <strong>{{ article.author }}</strong> | Updated: <time datetime="{{ article.publish_date }}">{{ article.publish_date[:10] }}</time>
             </div>
+            <p class="editorial-disclaimer" style="font-size: 0.85rem; color: #64748b; margin-top: 0.5rem; font-style: italic;">
+                <strong>Disclaimer:</strong> This guide aggregates public veterinary cost data and insurance premium estimates for {{ article.location_name }}. We are not licensed financial advisors or veterinarians. Rates may vary.
+            </p>
             
             <!-- Social Share Inline -->
             <div class="social-share">
@@ -33,9 +36,43 @@
         </header>
 
         <div class="article-body">
+            <!-- Local Premium Estimator Widget -->
+            <div class="interactive-widget">
+                <h3>Local Premium Estimator ({{ article.location_name }})</h3>
+                <p>Select your pet's age to see how it impacts your estimated monthly premium based on local averages.</p>
+                <div class="widget-controls">
+                    <label for="pet-age">Pet's Age (Years):</label>
+                    <input type="range" id="pet-age" min="1" max="15" value="3" oninput="updatePremium()">
+                    <span id="pet-age-display">3</span>
+                </div>
+                <div class="widget-result">
+                    Estimated Monthly Premium: <strong>$<span id="premium-display"></span></strong>
+                </div>
+                <script>
+                    function updatePremium() {
+                        const age = document.getElementById('pet-age').value;
+                        document.getElementById('pet-age-display').innerText = age;
+                        // Base premium comes from local data if available, otherwise fallback to 50
+                        const basePremium = {{ article.local_data.avg_premium_usd | default(50) }};
+                        // Age factor: premium increases by roughly 8% per year
+                        const estimated = (basePremium * Math.pow(1.08, age - 1)).toFixed(2);
+                        document.getElementById('premium-display').innerText = estimated;
+                    }
+                    // Initialize on load
+                    document.addEventListener("DOMContentLoaded", updatePremium);
+                </script>
+                <style>
+                    .interactive-widget { background: #f8fafc; padding: 1.5rem; border-radius: 8px; border: 1px solid #e2e8f0; margin-bottom: 2rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+                    .widget-controls { display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem; }
+                    .widget-result { font-size: 1.125rem; color: #0f172a; }
+                    .editorial-disclaimer { max-width: 800px; margin: 0.5rem auto; }
+                </style>
+            </div>
+
             {{ article.content_html | safe }}
             
-            <!-- Mid-Article AdSense -->
+            <!-- Mid-Article AdSense (Temporarily disabled for approval) -->
+            <!--
             <div class="ad-container ad-mid-article">
                 <ins class="adsbygoogle"
                      style="display:block; text-align:center;"
@@ -47,11 +84,12 @@
                      (adsbygoogle = window.adsbygoogle || []).push({});
                 </script>
             </div>
+            -->
             
             <!-- Mid-Article Newsletter -->
             <div class="inline-newsletter">
-                <h3>Protect Your {{ article.breed }}</h3>
-                <p>Join our free newsletter for the latest pet health tips and insurance discounts.</p>
+                <h3>Get Local Rate Alerts for {{ article.location_name }}</h3>
+                <p>Join our free newsletter for the latest pet health tips, insurance discounts, and local vet cost updates.</p>
                 <form action="#" method="POST" class="newsletter-form inline">
                     <input type="email" placeholder="Your email address" required>
                     <button type="submit" class="btn btn-secondary">Subscribe</button>
@@ -85,8 +123,9 @@
     </article>
 
     <aside class="sidebar">
-        <!-- Sticky Sidebar Ad -->
+        <!-- Sticky Sidebar Ad (Temporarily disabled for approval) -->
         <div class="sticky-sidebar-widget">
+            <!--
             <div class="ad-container ad-sidebar">
                 <ins class="adsbygoogle"
                      style="display:block"
@@ -98,6 +137,7 @@
                      (adsbygoogle = window.adsbygoogle || []).push({});
                 </script>
             </div>
+            -->
 
             <div class="related-widget">
                 <h3>Similar Items</h3>
@@ -159,7 +199,7 @@
       {
         "@type": "ListItem",
         "position": 3,
-        "name": "{{ article.breed }}",
+        "name": "{{ article.location_name }}",
         "item": "{{ site.url }}/{{ article.slug }}.html"
       }
     ]

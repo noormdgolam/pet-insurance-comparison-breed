@@ -1,22 +1,32 @@
 [
     {
-        "name": "Small Breeds",
-        "slug": "small-breeds",
-        "description": "Pet insurance guides for small dog breeds."
+        "name": "Northeast",
+        "slug": "northeast",
+        "description": "Pet insurance rates in the Northeast US."
     },
     {
-        "name": "Large & Medium Breeds",
-        "slug": "large-medium-breeds",
-        "description": "Pet insurance guides for medium and large dog breeds."
+        "name": "Midwest",
+        "slug": "midwest",
+        "description": "Pet insurance rates in the Midwest US."
     },
     {
-        "name": "Giant Breeds",
-        "slug": "giant-breeds",
-        "description": "Pet insurance guides for giant dog breeds."
+        "name": "South",
+        "slug": "south",
+        "description": "Pet insurance rates in the Southern US."
+    },
+    {
+        "name": "West",
+        "slug": "west",
+        "description": "Pet insurance rates in the Western US."
+    },
+    {
+        "name": "Cities",
+        "slug": "cities",
+        "description": "Pet insurance rates in major US cities."
     },
     {
         "name": "Guides",
         "slug": "guides",
-        "description": "Comprehensive pet insurance guides."
+        "description": "Comprehensive pet insurance rate guides."
     }
 ]
