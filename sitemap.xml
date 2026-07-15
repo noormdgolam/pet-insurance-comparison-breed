@@ -1,824 +1,427 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/</loc>
-        <lastmod>2026-07-14</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/about.html</loc>
-        <lastmod>2026-07-14</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/contact.html</loc>
-        <lastmod>2026-07-14</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/privacy-policy.html</loc>
-        <lastmod>2026-07-14</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/terms.html</loc>
-        <lastmod>2026-07-14</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/disclaimer.html</loc>
-        <lastmod>2026-07-14</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    
-    
-    
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/search.html</loc>
-        <lastmod>2026-07-14</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/northeast.html</loc>
-        <lastmod>2026-07-14</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/midwest.html</loc>
-        <lastmod>2026-07-14</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/south.html</loc>
-        <lastmod>2026-07-14</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/west.html</loc>
-        <lastmod>2026-07-14</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/cities.html</loc>
-        <lastmod>2026-07-14</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/guides.html</loc>
-        <lastmod>2026-07-14</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-new-york.html</loc>
-        <lastmod>2026-06-16</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-pennsylvania.html</loc>
-        <lastmod>2026-03-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-massachusetts.html</loc>
-        <lastmod>2026-01-20</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-new-jersey.html</loc>
-        <lastmod>2026-04-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-connecticut.html</loc>
-        <lastmod>2025-10-22</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-maine.html</loc>
-        <lastmod>2026-03-14</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-new-hampshire.html</loc>
-        <lastmod>2026-03-12</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-rhode-island.html</loc>
-        <lastmod>2025-09-21</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-vermont.html</loc>
-        <lastmod>2026-06-20</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-illinois.html</loc>
-        <lastmod>2026-05-26</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-ohio.html</loc>
-        <lastmod>2025-12-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-michigan.html</loc>
-        <lastmod>2026-07-05</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-indiana.html</loc>
-        <lastmod>2026-02-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-missouri.html</loc>
-        <lastmod>2026-06-07</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-wisconsin.html</loc>
-        <lastmod>2026-01-06</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-minnesota.html</loc>
-        <lastmod>2026-03-20</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-iowa.html</loc>
-        <lastmod>2026-06-30</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-kansas.html</loc>
-        <lastmod>2026-03-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-nebraska.html</loc>
-        <lastmod>2026-04-15</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-south-dakota.html</loc>
-        <lastmod>2026-03-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-north-dakota.html</loc>
-        <lastmod>2025-11-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-texas.html</loc>
-        <lastmod>2025-12-20</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-florida.html</loc>
-        <lastmod>2026-01-26</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-georgia.html</loc>
-        <lastmod>2026-06-26</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-north-carolina.html</loc>
-        <lastmod>2025-11-30</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-virginia.html</loc>
-        <lastmod>2026-02-19</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-tennessee.html</loc>
-        <lastmod>2026-06-21</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-maryland.html</loc>
-        <lastmod>2025-09-24</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-south-carolina.html</loc>
-        <lastmod>2026-03-28</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-alabama.html</loc>
-        <lastmod>2025-11-20</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-louisiana.html</loc>
-        <lastmod>2025-12-16</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-kentucky.html</loc>
-        <lastmod>2026-07-11</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-oklahoma.html</loc>
-        <lastmod>2025-11-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-arkansas.html</loc>
-        <lastmod>2026-03-14</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-mississippi.html</loc>
-        <lastmod>2025-11-19</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-west-virginia.html</loc>
-        <lastmod>2026-04-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-delaware.html</loc>
-        <lastmod>2026-06-01</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-washington-dc.html</loc>
-        <lastmod>2026-04-04</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-california.html</loc>
-        <lastmod>2026-02-14</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-washington.html</loc>
-        <lastmod>2026-03-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-colorado.html</loc>
-        <lastmod>2026-05-26</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-arizona.html</loc>
-        <lastmod>2026-07-02</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-oregon.html</loc>
-        <lastmod>2026-06-04</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-utah.html</loc>
-        <lastmod>2026-06-06</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-nevada.html</loc>
-        <lastmod>2026-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-new-mexico.html</loc>
-        <lastmod>2026-03-28</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-idaho.html</loc>
-        <lastmod>2025-10-10</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-montana.html</loc>
-        <lastmod>2026-01-05</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-wyoming.html</loc>
-        <lastmod>2026-02-12</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-alaska.html</loc>
-        <lastmod>2026-06-07</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-hawaii.html</loc>
-        <lastmod>2026-05-14</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-new-york-ny-10001.html</loc>
-        <lastmod>2025-10-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-los-angeles-ca-90001.html</loc>
-        <lastmod>2025-10-25</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-chicago-il-60601.html</loc>
-        <lastmod>2026-06-21</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-houston-tx-77001.html</loc>
-        <lastmod>2026-01-30</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-phoenix-az-85001.html</loc>
-        <lastmod>2025-10-22</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-philadelphia-pa-19101.html</loc>
-        <lastmod>2026-04-29</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-san-antonio-tx-78201.html</loc>
-        <lastmod>2025-12-14</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-san-diego-ca-92101.html</loc>
-        <lastmod>2026-05-24</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-dallas-tx-75201.html</loc>
-        <lastmod>2025-12-12</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-san-jose-ca-95101.html</loc>
-        <lastmod>2025-10-27</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-austin-tx-73301.html</loc>
-        <lastmod>2026-02-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-jacksonville-fl-32099.html</loc>
-        <lastmod>2026-05-16</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-fort-worth-tx-76101.html</loc>
-        <lastmod>2025-12-30</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-columbus-oh-43201.html</loc>
-        <lastmod>2025-10-04</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-charlotte-nc-28201.html</loc>
-        <lastmod>2026-01-03</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-san-francisco-ca-94101.html</loc>
-        <lastmod>2025-12-06</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-indianapolis-in-46201.html</loc>
-        <lastmod>2026-05-03</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-seattle-wa-98101.html</loc>
-        <lastmod>2025-12-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-denver-co-80201.html</loc>
-        <lastmod>2025-09-22</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-washington-dc-20001.html</loc>
-        <lastmod>2026-03-01</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-boston-ma-02101.html</loc>
-        <lastmod>2026-02-10</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-el-paso-tx-79901.html</loc>
-        <lastmod>2026-06-10</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-nashville-tn-37201.html</loc>
-        <lastmod>2026-02-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-detroit-mi-48201.html</loc>
-        <lastmod>2025-10-07</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-oklahoma-city-ok-73101.html</loc>
-        <lastmod>2025-10-29</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-portland-or-97201.html</loc>
-        <lastmod>2026-05-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-las-vegas-nv-89101.html</loc>
-        <lastmod>2025-10-11</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-memphis-tn-38101.html</loc>
-        <lastmod>2025-09-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-louisville-ky-40201.html</loc>
-        <lastmod>2026-04-06</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-baltimore-md-21201.html</loc>
-        <lastmod>2025-12-10</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-milwaukee-wi-53201.html</loc>
-        <lastmod>2025-11-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-albuquerque-nm-87101.html</loc>
-        <lastmod>2026-04-20</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-tucson-az-85701.html</loc>
-        <lastmod>2026-04-11</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-fresno-ca-93701.html</loc>
-        <lastmod>2025-11-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-mesa-az-85201.html</loc>
-        <lastmod>2026-06-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-sacramento-ca-95801.html</loc>
-        <lastmod>2026-06-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-atlanta-ga-30301.html</loc>
-        <lastmod>2025-12-21</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-kansas-city-mo-64101.html</loc>
-        <lastmod>2026-04-26</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-colorado-springs-co-80901.html</loc>
-        <lastmod>2026-04-22</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-miami-fl-33101.html</loc>
-        <lastmod>2025-12-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-raleigh-nc-27601.html</loc>
-        <lastmod>2025-09-25</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-omaha-ne-68101.html</loc>
-        <lastmod>2025-12-25</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-long-beach-ca-90801.html</loc>
-        <lastmod>2026-03-12</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-virginia-beach-va-23450.html</loc>
-        <lastmod>2025-10-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-oakland-ca-94601.html</loc>
-        <lastmod>2026-03-21</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-minneapolis-mn-55401.html</loc>
-        <lastmod>2026-04-07</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-tulsa-ok-74101.html</loc>
-        <lastmod>2026-05-01</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-arlington-tx-76001.html</loc>
-        <lastmod>2025-10-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-tampa-fl-33601.html</loc>
-        <lastmod>2026-04-25</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-in-new-orleans-la-70112.html</loc>
-        <lastmod>2026-05-20</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://pet-insurance-rates-zip.bongshai.com/pet-insurance-rates-by-zip-code.html</loc>
-        <lastmod>2026-07-14</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/about.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-1.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-2.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-3.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-4.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-5.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-6.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-7.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-8.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-9.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-10.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-11.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-12.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-13.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-14.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-15.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-16.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-17.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-18.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-19.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-20.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-21.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-22.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-23.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-24.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-25.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-26.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-27.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-28.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-29.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-30.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-31.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-32.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-33.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-34.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-35.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-36.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-37.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-38.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-39.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-40.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-41.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-42.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-43.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-44.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-45.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-46.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-47.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-48.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-49.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-50.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-51.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-52.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-53.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-54.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-55.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-56.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-57.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-58.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-59.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-60.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-61.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-62.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-63.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-64.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-65.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-66.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-67.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-68.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-69.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-70.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-71.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-72.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-73.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-74.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-75.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-76.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-77.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-78.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-79.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-80.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-81.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-82.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-83.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-84.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-85.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-86.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-87.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-88.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-89.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-90.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-91.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-92.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-93.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-94.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-95.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-96.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-97.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-98.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-99.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-100.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-101.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-102.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-103.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://pet-insurance-comparison-breed.bongshai.com/pet-insurance-comparison-for-breed-variant-104.html</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
 </urlset>
